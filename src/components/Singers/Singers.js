@@ -41,8 +41,8 @@ const Singers = () => {
         <div className="main-container">
             <div className="singers-container">
                 {
-                    // singers.map(singer => console.log(singer))
-                    // console.log(singers)
+                    singers.map(singer => <Singer singer={singer} />)
+                    
                 }
                 <div className="cart-container">
                     <h3>Singers Selected</h3>
