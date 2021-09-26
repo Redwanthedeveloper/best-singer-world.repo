@@ -1,0 +1,12 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+}
+.cart-container {
+  text-align: center;
+}
+.singers-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
